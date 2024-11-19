@@ -11,6 +11,7 @@ import { ReactLenis } from "lenis/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import Services from "./components/Services/Services";
 
 // Register gsap plugins
 
@@ -41,6 +42,7 @@ const App = () => {
         <Hero />
         <About />
         <Skill />
+        <Services />
         <Work />
         <Review />
         <Contact />
