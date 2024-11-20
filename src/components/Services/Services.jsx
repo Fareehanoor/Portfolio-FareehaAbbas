@@ -16,10 +16,6 @@ const services = [
     label: "Performance Optimization",
     desc: "Improve website speed and ensure seamless performance for better user engagement.",
   },
-  {
-    label: "API Integration",
-    desc: "Connect your website with third-party services through secure API integrations.",
-  },
 ];
 
 const Services = () => {
