@@ -4,7 +4,7 @@ const ProjectCard = ({ imgSrc, title, tags, projectLink, classes }) => {
   return (
     <div
       className={
-        "relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-inset ring-inset-50/5 transition-colors " +
+        "relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-inset inset-1 border-2 border-zinc-700 ring-inset-50/5 transition-colors " +
         classes
       }
     >
