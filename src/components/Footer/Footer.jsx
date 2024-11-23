@@ -99,7 +99,7 @@ const Footer = () => {
         {/* Footer Bottom Section */}
         <div className="flex items-center justify-between pt-10 mb-8">
           <a href="/" className="logo reveal-up">
-            <img src="/images/logo.svg" alt="Logo" width={40} height={40} />
+            <img src="./images/logo.svg" alt="Logo" width={40} height={40} />
           </a>
           <p className="text-zinc-500 text-sm reveal-up">
             Copyright &copy; {new Date().getFullYear()}{" "}
